@@ -8,10 +8,10 @@ function playSound(filename) {
   sound.play();
 }
 function playVictorySound() {
-  playSound('victory.mp3');
+  playSound('sounds/victory.mp3');
 }
 function playErrorSound() {
-  playSound('error.mp3');
+  playSound('sounds/error.mp3');
 }
 
 // Define a function for shuffling an array
