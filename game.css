@@ -1,0 +1,78 @@
+/* Background and general styling */
+body {
+  background-color: #ffe6e6;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Title and score display */
+h1 {
+  color: #ff3300;
+  font-size: 48px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #ffffcc;
+}
+
+#score {
+  font-size: 36px;
+  color: #ff9933;
+  text-shadow: 1px 1px #ffffcc;
+}
+
+/* Animal images */
+#game-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.animal {
+  border-radius: 50%;
+  box-shadow: 2px 2px #ffccff;
+  cursor: pointer;
+  margin: 10px;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1);
+}
+
+.animal:hover {
+  transform: scale(1.1);
+}
+
+/* Victory and error messages */
+#message {
+  font-size: 24px;
+  margin-top: 30px;
+  text-shadow: 1px 1px #ffffcc;
+}
+
+#message.victory {
+  color: #66ff66;
+}
+
+#message.error {
+  color: #ff3333;
+}
+
+/* Restart button */
+#restart {
+  background-color: #ff9933;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 24px;
+  margin-top: 50px;
+  padding: 10px 20px;
+  text-shadow: 1px 1px #ffffcc;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#restart:hover {
+  background-color: #ffcc66;
+}
+
